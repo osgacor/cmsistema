@@ -1,0 +1,40 @@
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>FERRETERIA MENDEZ...</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <!--link rel="stylesheet" href="css/main.css"> -->
+    <link rel="stylesheet" href="css/st_login.css">
+  </head>
+  <body>
+
+    <div class="login-box">
+        <img class="avatar" src="img/logo.jpg" alt="Logo de Desarrollador">
+        <h1>Ingreso al Sistema</h1>
+        <form method="post" action="php/pruebas.php">
+            <!-- user password -->
+            <label for="password">Usuario</label>
+            <input type="password" id = password placeholder="Ingrese Usuario" required>
+
+            <input type="submit" id = v_login value="Usuario">
+
+            <a href="#">Olvidaste tu Usuario?</a>
+
+        </form>
+    </div>
+
+<!--
+    <?php
+      if (isset($_POST['login'])) {
+          login($_POST['pass']);
+      }
+    ?>
+-->
+
+<!--
+    <footer>
+      <p>&copy;2019 OS.Gacorp</p>
+    </footer>
+-->
+  </body>
+</html>
